@@ -1,0 +1,21 @@
+body{
+  overflow: hidden;
+  margin: 0;
+}
+.TheMainNav{
+  display: flex;
+  justify-content: center;
+  background-color: #C3C3C3;
+}
+.TheMainNav_i{
+  padding-left: 90px;
+  padding-right: 90px;
+}
+.HomePgMainBan{
+  height: 100%;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
