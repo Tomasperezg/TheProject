@@ -6,6 +6,8 @@ body{
   display: flex;
   justify-content: center;
   background-color: #E9E9E9;
+  position: fixed;
+  width: 100%;
 }
 .TheMainNav_i{
   padding-left: 90px;
@@ -25,18 +27,38 @@ body{
     width: 100%;
     transition: width .3s;
 }
-/* .TheMainNav_i:hover{
-  color: #4B4B4B;
-  opacity: 0.9;
-} */
-.HomePgMainBan{
+.TheMainNav_2{
+  height: 100%;
+  width: 60px;
+  background-color:#E9E9E9;
+  position: fixed;
+  display: flex;
+  align-items: center;
+}
+.TheMainNav_Pro{
+  transform: rotate(-90deg);
+}
+.TheMainNav_Pro::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: Black;
+    transition: width .3s;
+}
+
+.TheMainNav_Pro:hover::after {
+    width: 100%;
+    transition: width .3s;
+}
+/* .HomePgMainBan{
   height: 100%;
   width: 100%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
-}
+} */
 .HomePgMainBan_TXT1{
   position: absolute;
   top: 50%;
