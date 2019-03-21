@@ -79,3 +79,8 @@ body{
   height: 100%;
   background: yellow;
 }
+.ProjectBox_Pg{
+  width: 900px;
+  background-color: red;
+  height: 900px;
+}
