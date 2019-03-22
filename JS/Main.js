@@ -9,3 +9,9 @@ $(document).ready(function() {
   $('.ProjectBox_Pg').removeClass( 'hidden' );
   });
 });
+$(document).ready(function() {
+  let ProjectLandpg = $('.ProjectBox_Pg_TXT')
+  $(ProjectLandpg).on('click', function() {
+    $('.ProjectBox_Pg').hide();
+  });
+});
