@@ -16,16 +16,16 @@ $(document).ready(function() {
     $('.ProjectBox_Pg').hide();
   });
 });
-var Car_Home_1 = ["IMG/IMG_HOME_1.jpeg",
-                  "IMG/HOME_IMAGE_2.jpg"];
-var cnt = Car_Home_1.length;
-
-$(function() {
-        setInterval(Slider, 5000);
-    });
-
-    function Slider() {
-    $(".PRO_HOME_1_IMGS").show("fast", function() {
-       $(this).attr("src", Car_Home_1[(Car_Home_1.length++) % cnt]).show();
-    });
-    }
+// var Car_Home_1 = ["IMG/IMG_HOME_1.jpeg",
+//                   "IMG/HOME_IMAGE_2.jpg"];
+// var cnt = Car_Home_1.length;
+//
+// $(function() {
+//         setInterval(Slider, 5000);
+//     });
+//
+//     function Slider() {
+//     $(".PRO_HOME_1_IMGS").show("fast", function() {
+//        $(this).attr("src", Car_Home_1[(Car_Home_1.length++) % cnt]).show();
+//     });
+//     }
