@@ -59,6 +59,18 @@ body{
   background-size: cover;
   position: relative;
 } */
+.HOMEPG_LG{
+  text-align: center;
+  position: absolute;
+  top: 25%;
+  left: 44%;
+}
+.crop{
+border-radius: 30%;
+border-color: Black;
+border-style: double;
+border-width: 5px;
+}
 .HomePgMainBan_TXT1{
   position: absolute;
   top: 50%;
@@ -103,7 +115,7 @@ body{
   display: flex;
 }
 .PRO_cont{
-  margin-top: 100px;
+  margin-top: 60px;
   background-color: pink;
 }
 .PRO_HOUSE_INFO{
@@ -112,5 +124,13 @@ body{
   margin-top: 100px;
 }
 .The_PRO_Gal_2{
-
+display: flex;
+justify-content: flex-end;
+}
+.PRO_IMG_HOM2{
+  justify-content: flex-end;
+}
+.PRO_HOUSE_INFO2{
+  margin-right: 200px;
+  margin-top: 100px;
 }

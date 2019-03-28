@@ -1,6 +1,7 @@
 $(document).ready(function() {
   $('.HomePgMainBan_SubTX_1').fadeIn(1500).removeClass('hidden');
-  $('.HomePgMainBan_SubTX_2').fadeIn(7500).removeClass('hidden');
+  $('.HomePgMainBan_SubTX_2').fadeIn(5500).removeClass('hidden');
+  $('.HOMEPG_LG').fadeIn(1500).removeClass('hidden');
 });
 
 $(document).ready(function() {
